@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Merienda One';
+  src: url('MeriendaOne-Regular.ttf');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, span {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+a {
+  color: #33a5ff;
+  position: relative;
+  text-decoration: underline;
+}

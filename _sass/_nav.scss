@@ -1,0 +1,26 @@
+nav {
+  ul {
+    padding: 0 10%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+      padding: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        border: 4px solid #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.25);
+      }
+
+      a {
+        color: #33322e;
+        text-decoration: none;
+      }
+    }
+  }
+}
