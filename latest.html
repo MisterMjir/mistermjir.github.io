@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% if site.posts.size > 0 %}
+  <div class="post-list">
+    {% for post in site.posts %}
+    <div class="post">
+      <div class="post-heading">
+        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        <p class="post-date">{{ post.date | date: '%B %d, %Y' }}</p>
+      </div>
+      <div class="post-preview">{{ post.excerpt }}</div>
+      <div class="post-tags">
+        <p>Tags:</p>
+        {% for category in post.categories %}
+          <p>{{ category }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endif %}

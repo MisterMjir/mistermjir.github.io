@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Merienda One';
-  src: url('MeriendaOne-Regular.ttf');
+  src: url('/assets/fonts/Merienda_One/MeriendaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Varela Round';
+  src: url('/assets/fonts/Varela_Round/VarelaRound-Regular.ttf');
 }
 
 html {
@@ -12,7 +17,7 @@ body {
 }
 
 p, h1, h2, h3, h4, h5, h6, a, span {
-  font-family: sans-serif;
+  font-family: 'Varela Round', sans-serif;
   text-decoration: none;
   color: #3a3a3a;
 }
