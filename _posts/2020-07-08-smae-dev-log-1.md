@@ -3,6 +3,7 @@ layout: post
 title:  "SMAE Dev Log #1"
 date:   2020-07-08 22:32:00 -0500
 categories: Devlog Game SMAE
+description: "Going to make an epic game"
 ---
 
 I am beginning work on an epic game code named SMAE (it's just the initials of the full title!)
@@ -60,7 +61,7 @@ an transformations.
 This is starting to get somewhere, now I want to move and zoom. Added a class to handle window buttons and boom! Now we
 can move, zoom in, and zoom out! It looks like this:
 
-<img src="/assets/images/smae_dev_log_1.gif">
+<img src="https://mistermjir.github.io/assets/images/smae_dev_log_1.gif">
 
 That's pretty much it for this log. The next step to reach the first goal is to add tools so we can add vertexes and line
 (and possible a floor while we are at it). Then we gotta save this data into a file and then create a game to see if the
