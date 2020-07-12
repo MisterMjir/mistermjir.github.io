@@ -16,7 +16,7 @@ So first I did the color changing, not too hard. I thought. Somehow I was gettin
 buttons are pretty much deprecated now that you can use the mouse to control. It's so much easier to move the screen
 and zoom in and out with the mouse.
 
-<img src="https://mistermjir.github.io/assets/smae_dev_log_3_1.gif">
+<img src="https://mistermjir.github.io/assets/images/smae_dev_log_3_1.gif">
 
 Next I started working on adding the tools. You can already see the button in the image above but as it is there it's just
 a visual thing. I created a toolmanager which does most of the heavy lifting for the tools and got it to select and deselect
@@ -31,7 +31,7 @@ pretty easily, but it wasn't showing up in the right place. Removing the view of
 problem is now the zoom doesn't zoom in towards the center of the screen. I'm actually not gonna deal with problem for now.
 Finally, here is what the progress looks like.
 
-<img src="https://mistermjir.github.io/assets/smae_dev_log_3_2.gif">
+<img src="https://mistermjir.github.io/assets/images/smae_dev_log_3_2.gif">
 
 This next step took a lot of processing power (from my brain, rips). I want a vertex to glow if you are 'selecting' it. This
 is where the bad code comes in. So I added a property for the vertex to tell if it's selected, but to check if something is
@@ -50,7 +50,7 @@ get creative!
 
 Anywho, here it is:
 
-<img src="https://mistermjir.github.io/assets/smae_dev_log_3_3.gif">
+<img src="https://mistermjir.github.io/assets/images/smae_dev_log_3_3.gif">
 
 Now there are some changes under the hood. I've added a bunch more map data stuff, but also I wanted the tools to display their own
 names so it would be easier for anyone (but most important me, who will probably forget what each button does) to figure out the UI.
@@ -61,7 +61,7 @@ fonts but it just wasn't working! To my luck I found [a very helpful article](ht
 
 Now I got this:
 
-<img src="https://mistermjir.github.io/assets/smae_dev_log_3_4.gif">
+<img src="https://mistermjir.github.io/assets/images/smae_dev_log_3_4.gif">
 
 First I was going off just reading on [DOOM WADs in the DOOM Wikia](https://doom.fandom.com/wiki/WAD) but now I have increased my
 resources and am also referencing 3DSage's DOOM like engine because it's a really nice looking editor.
