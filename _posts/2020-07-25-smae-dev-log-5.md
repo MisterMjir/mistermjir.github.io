@@ -69,7 +69,7 @@ c^2. It's supposed to be distance formula but distance formula is the same as th
 
 So given points a and b, I want to find the coordinates of the point made by going a set distance (.25) from the midpoint in the
 line perpendicular to the line found by points a and b (this is the top left drawing). I don't know how I knew I needed trigonometry,
-but I needed trigonometry so I needed to find that right triangle. That was easy enough, it's the orange angle. Now I need to
+but I needed trigonometry so I needed to find that right triangle. That was easy enough, and I want to find the orange angle. Now I need to
 actually find that angle, and I can use any trig function I want, but I ended up just using sine. So with the SOH CAH TOA trick,
 we know that the sine of theta is equal to the ratio of the opposite and he hypotenuse. The opposite is the green a (0.25) and
 the hypotenuse is the green c. But wait, theta is the angle, we don't the angle, but we know the hypotenuse (let's call it h).
