@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SMAE Dev Log #5"
-date: 2020-07-25 10:30:00 -0500
+date: 2020-07-25 11:12:00 -0500
 categories: Devlog Game SMAE
 description: "Walls and math"
 ---
@@ -62,7 +62,7 @@ because I want every tick to have the same distance. It's easy for straight line
 left, up, or down. It is dang difficult for curved lines and I needed to finesse with some trigonometry even though I haven't
 taken my trig course in school yet. I still know how sine and cosine work and that's good enough.
 
-![](https://mistermjir.github.io/assets/images/smae_dev_log_5_2.png)
+![](https://mistermjir.github.io/assets/images/smae_dev_log_5_2.jpg)
 
 One thing that's weird is on the left I wrote a^2 + b^2 = c^2 but it's actually supposed to be like (a.x - b.x)^2 + (a.y - b.y)^2 =
 c^2. It's supposed to be distance formula but distance formula is the same as the Pythagorean theorem so eh...

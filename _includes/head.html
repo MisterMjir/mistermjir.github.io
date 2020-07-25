@@ -11,10 +11,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="GOZVQhuisx399G9d3jc1A8IIIMtVaVmzBURSMhaesOI" />
 
+{% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+{% endif %}
+{% if page.layout == "post" %}
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="An article about {{ page.description }}">
+<meta property="og:url" content="https://mistermjir.github.io{{ page.url }}">
+<meta name="twitter:card" content="summary">
+<!-- Apparently need images for rich results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "person",
+    "name": "Mister Mjir"
+  },
+}
+</script>
+{% elsif page.layout == "home" %}
+  <meta name="twitter:card" content="summary">
+  <meta name="og:title" content="Mister Mjir's Blog">
+  <meta name="og:description" content="An epic blog about stuff">
+{% endif %}
+
 {% if page.title %}
-<title>{{ page.title }}</title>
+  <title>{{ page.title }}</title>
 {% else %}
-<title>Mister Mjir's Blog</title>
+  <title>Mister Mjir's Blog</title>
 {% endif %}
 
 <link rel="stylesheet" href="/assets/css/main.css">
