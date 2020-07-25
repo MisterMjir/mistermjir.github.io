@@ -49,7 +49,6 @@ pre.highlight {
     // Code styling
     &.k {
       color: #8350af;
-
     }
 
     &.nc {
@@ -62,6 +61,11 @@ pre.highlight {
 
     &.nl {
       color: #a77ccc;
+    }
+
+    &.c1 {
+      color: #ccc;
+      font-style: italic;
     }
   }
 }

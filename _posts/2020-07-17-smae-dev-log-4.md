@@ -29,6 +29,6 @@ steam.
 
 Here is a picture of what the editor looks like now:
 
-!()[https://mistermjir.github.io/assets/images/smae_dev_log_4_1.png]
+![](https://mistermjir.github.io/assets/images/smae_dev_log_4_1.png)
 
 Now I gotta make sections and walls, after I finish those I can start working on the game engine.
