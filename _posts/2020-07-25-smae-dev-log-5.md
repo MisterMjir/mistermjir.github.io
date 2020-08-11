@@ -69,13 +69,13 @@ c^2. It's supposed to be distance formula but distance formula is the same as th
 
 So given points a and b, I want to find the coordinates of the point made by going a set distance (.25) from the midpoint in the
 line perpendicular to the line found by points a and b (this is the top left drawing). I don't know how I knew I needed trigonometry,
-but I needed trigonometry so I needed the find that right triangle. That was easy enough, it's the orange angle. Now I need to
+but I needed trigonometry so I needed to find that right triangle. That was easy enough, and I want to find the orange angle. Now I need to
 actually find that angle, and I can use any trig function I want, but I ended up just using sine. So with the SOH CAH TOA trick,
 we know that the sine of theta is equal to the ratio of the opposite and he hypotenuse. The opposite is the green a (0.25) and
-the hypotenuse is the green c. But wait, theta is the angle, we don't the angle, but we know the hypotenuse (let's call it h).
-That means that so far we have sin(x) = h. Luckilly, this is an easy fix with arcsine (inverse sine, whatever). Sine takes an
+the hypotenuse is the green c. But wait, theta is the angle, we don't the angle, but we know the ratio (a/c) and we'll call it r.
+That means that so far we have sin(x) = r. Luckilly, this is an easy fix with arcsine (inverse sine, whatever). Sine takes an
 angle and spits back a ratio, so the inverse of that takes a ratio, and spits back an angle. Well, now we got our equation:
-sin^-1 (h) = x, and angle is found. Now we need to find the distance moved in the x and y. Remember that trigonometry is all about
+sin^-1 (r) = x, and angle is found. Now we need to find the distance moved in the x and y. Remember that trigonometry is all about
 circles, so let's draw a circle (bottom left drawing). So that's our unit circle, and by spinning around it the distance of x (the
 angle), we land at the brown point. Cosine will give us the x distance from 0 and sine will give us the y distance from 0. Since
 the point is not at 0, we just have to add whatever the point x or y is to offset that 0.
