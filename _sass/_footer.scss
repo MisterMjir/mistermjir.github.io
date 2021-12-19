@@ -1,0 +1,38 @@
+footer {
+  width: 80%;
+  margin: 0 10%;
+  border-top: 1px solid #ccc;
+  padding: 8px;
+  display: flex;
+
+  .left {
+    flex-grow: 1;
+  }
+
+  .right {
+     a {
+       color: #3a3a3a;
+     }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+    margin: 0;
+
+    .link-group {
+      display: flex;
+
+      li {
+        padding: 8px;
+        text-align: center;
+      }
+    }
+  }
+
+  .copyright {
+
+  }
+}

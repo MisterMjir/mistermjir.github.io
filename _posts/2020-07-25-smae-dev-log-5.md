@@ -55,14 +55,14 @@ Tool which allows it to know if it's selected (I know I want to optimize but I'm
 way better code) and then each tool handles its own update and drawing and the tool manager just calls them. The code
 is looking a lot better now and it was easy to add sub tools. After implementing walls it looks like this:
 
-![](https://mistermjir.github.io/assets/images/smae_dev_log_5_1.png)
+![](https://mistermjir.github.io/assets/images/smae/smae_dev_log_5_1.png)
 
 But you notice the ticks on those diagonal lines? Those are the wall markers, and they require using a lot of math. That's
 because I want every tick to have the same distance. It's easy for straight lines, just find the midpoint and shift right,
 left, up, or down. It is dang difficult for curved lines and I needed to finesse with some trigonometry even though I haven't
 taken my trig course in school yet. I still know how sine and cosine work and that's good enough.
 
-![](https://mistermjir.github.io/assets/images/smae_dev_log_5_2.jpg)
+![](https://mistermjir.github.io/assets/images/smae/smae_dev_log_5_2.jpg)
 
 One thing that's weird is on the left I wrote a^2 + b^2 = c^2 but it's actually supposed to be like (a.x - b.x)^2 + (a.y - b.y)^2 =
 c^2. It's supposed to be distance formula but distance formula is the same as the Pythagorean theorem so eh...
@@ -123,7 +123,7 @@ in the top become vertical in the bottom.
 So finally, take the offset and add the angle to get the desired angle, and finally it will all work. Let's look at that image
 again:
 
-![](https://mistermjir.github.io/assets/images/smae_dev_log_5_1.png)
+![](https://mistermjir.github.io/assets/images/smae/smae_dev_log_5_1.png)
 
 As Thanos said:
 

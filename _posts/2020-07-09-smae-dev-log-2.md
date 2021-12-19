@@ -84,7 +84,7 @@ every ```new``` there must be a ```delete```. So after some time spent trying to
 finally got it working without a segmentation fault (don't worry if you don't know what it is, if you know, you know).
 Unfortunately, I didn't get enough time to add a UI to add the points, but here is the result anyways:
 
-<img src="https://mistermjir.github.io/assets/images/smae_dev_log_2_1.png">
+<img src="https://mistermjir.github.io/assets/images/smae/smae_dev_log_2_1.png">
 
 The UI for adding it is gonna be a little bit tricky. First I need to do something like the window buttons (the move and zoom)
 so it will be easy to add new tools. Then I'm gonna have to do some 'snapping' with the mouse, meaning snapping the points

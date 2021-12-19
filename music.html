@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1 style="margin: 0 20%">This page is a work in progress, I'll probably finish in a year or so</h1>
+<div class="albums">
+  <p>alphabit_soup</p>
+  {% for song in site.music %}
+    <div class="song">
+      {{ song.content }}
+    </div>
+  {% endfor %}
+</div>

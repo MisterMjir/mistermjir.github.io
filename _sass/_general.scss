@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+.body-content {
+  min-height: calc(100vh - 88px)
+}
+
 p, h1, h2, h3, h4, h5, h6, a, span {
   font-family: 'Varela Round', sans-serif;
   text-decoration: none;
