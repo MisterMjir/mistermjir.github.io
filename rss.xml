@@ -10,7 +10,7 @@
   <title>Mister Mjir's Blog</title>
   <link>https://mistermjir.github.io/blog.html</link>
   <description>Blog posts</description>
-  <atom:link href="https://hecrenews.github.io/rss.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://mistermjir.github.io/rss.xml" rel="self" type="application/rss+xml" />
   {% for post in site.posts %}
   <item>
     <title>{{ post.title }}</title>
