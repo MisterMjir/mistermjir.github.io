@@ -2,7 +2,7 @@
 layout: post
 title: "SMAE Dev Log #2"
 date: 2020-07-09 23:02:00 -0500
-categories: Devlog Game SMAE
+tags: Devlog Game SMAE
 description: "Remembering my C++ skills"
 ---
 

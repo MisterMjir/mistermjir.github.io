@@ -2,7 +2,7 @@
 layout: post
 title: "SMAE Dev Log #6"
 date: 2020-08-10 11:12:00 -0500
-categories: Devlog Game SMAE
+tags: Devlog Game SMAE
 description: "Map editor done, but not really"
 ---
 

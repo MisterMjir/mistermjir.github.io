@@ -2,7 +2,7 @@
 layout: post
 title: "SMAE Dev Log #5"
 date: 2020-07-25 11:12:00 -0500
-categories: Devlog Game SMAE
+tags: Devlog Game SMAE
 description: "Walls and math"
 ---
 

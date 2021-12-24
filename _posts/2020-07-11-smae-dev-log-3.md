@@ -2,7 +2,7 @@
 layout: post
 title: "SMAE Dev Log #3"
 date: 2020-07-11 22:01:00 -0500
-categories: Devlog Game SMAE
+tags: Devlog Game SMAE
 description: "Big features, very cool"
 ---
 

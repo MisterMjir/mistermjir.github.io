@@ -2,7 +2,7 @@
 layout: post
 title: "SMAE Dev Log #4"
 date: 2020-07-17 11:30:00 -0500
-categories: Devlog Game SMAE
+tags: Devlog Game SMAE
 description: "Epic Save"
 ---
 
