@@ -1,8 +1,8 @@
 nav {
-  margin-top: 16px;
+  //box-shadow: 0 1px 3px rgba(0,0,0,.25);
 
   ul {
-    padding: 0 10%;
+    padding: 4px 10%;
     margin: 0;
     list-style: none;
     display: flex;
@@ -15,7 +15,7 @@ nav {
       align-items: center;
 
       &:first-child {
-        padding-right: 32px;
+        padding-right: 8px;
       }
 
       &:not(:last-child) {
@@ -35,8 +35,8 @@ nav {
 
       img {
         border-radius: 50%;
-        border: 4px solid #fff;
-        box-shadow: 0 1px 3px rgba(0,0,0,.25);
+        //border: 4px solid #fff;
+        //box-shadow: 0 1px 3px rgba(0,0,0,.25);
       }
 
       a {
