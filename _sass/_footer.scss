@@ -1,10 +1,8 @@
 footer {
-  width: 80%;
-  margin: 0 10%;
-  border-top: 1px solid #ccc;
-  padding: 8px;
+  width: calc(100% - 64px);
+  padding: 16px 32px;
   display: flex;
-  margin-top: 16px;
+  background-color: #151517;
 
   .left {
     flex-grow: 1;
@@ -12,7 +10,7 @@ footer {
 
   .right {
      a {
-       color: #3a3a3a;
+       color: #8AABC7;
      }
   }
 

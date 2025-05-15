@@ -1,25 +1,32 @@
-.music-content {
-  padding: 0 10%;
-
-  .music-header {
-    display: flex;
-    align-items: center;
-
-    h2 {
-      width: fit-content;
-      padding-right: 16px;
-      margin: 0;
-    }
-
-    span {
-      flex-grow: 1;
-      height: 1px;
-      background-color: #ccc;
-    }
-  }
+h1 {
+    margin: 0;
 }
 
-.albums {
-  width: 60%;
-  margin: 0 20%;
+.album {
+    &-header {
+        margin-bottom: 8px;
+
+        h2 {
+            margin-bottom: 4px;
+        }
+
+        span {
+            font-style: italic;
+        }
+    }
+
+    &-info {
+        display: flex;
+
+        img {
+            display: block;
+            width: 25%;
+        }
+
+        p {
+            margin: 0;
+            margin-left: 16px;
+            padding: 0;
+        }
+    }
 }
