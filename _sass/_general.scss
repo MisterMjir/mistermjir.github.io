@@ -12,13 +12,7 @@ html, body {
 body {
   padding: 0 20%;
   font-family: "Fustat", sans-serif;
-  color: #ECEFCA;
-}
-
-@media all and (max-width: 800px) {
-  body {
-    padding: 0;
-  }
+  color: #081a31;
 }
 
 .body-img {
@@ -29,19 +23,31 @@ body {
   bottom: -8px;
   z-index: -1;
 
-  background-position: center;
-  background-size: cover;
-  filter: blur(4px);
+  background-size: 32px;
+  filter: blur(2px);
 }
 
 .body-content {
-  background-color: #1B1B27;
   padding: 32px;
   margin: 0;
   /* 48px nav, 32px margin, 32px * 2 padding, 32px bottom margin */
   min-height: calc(100vh - 180px);
 }
 
+h1, h2 {
+  color: #2F5165
+}
+
 a {
-  color: #8AABC7;
+  color: #427CAE;
+}
+
+@media all and (max-width: 800px) {
+  body {
+    padding: 0;
+  }
+
+  .body-content {
+    padding: 16px;
+  }
 }

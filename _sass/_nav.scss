@@ -1,5 +1,5 @@
 nav {
-    background-color: #151517;
+    margin-top: 16px;
 
     ul {
         list-style: none;
@@ -14,7 +14,12 @@ nav {
             position: relative;
 
             &:first-child {
-                margin-right: 16px;
+                margin-right: 8px;
+                margin-left: 16px;
+
+                img {
+                    border-radius: 50%;
+                }
             }
 
             a {
@@ -24,6 +29,7 @@ nav {
                 position: relative;
                 display: flex;
                 align-items: center;
+                color: #2F5165;
             }
         }
     }

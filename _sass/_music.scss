@@ -17,13 +17,19 @@ h1 {
 
     &-info {
         display: flex;
+        position: relative;
 
-        img {
-            display: block;
-            width: 25%;
+        &-img {
+            flex: 1 1 0;
+
+            img {
+                display: block;
+                width: 100%;
+            }
         }
 
         p {
+            flex: 2 1 0;
             margin: 0;
             margin-left: 16px;
             padding: 0;
